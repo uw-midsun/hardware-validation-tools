@@ -100,7 +100,7 @@ class N8740A:
 
 	def set_output(self, voltage = 0, current = 0):
 		if (voltage > 150) or (voltage < 0):
-			print "Voltage Set Point Out of Range\n"
+			print ("Voltage Set Point Out of Range\n")
 			return False	
 
 		# set current limitß
